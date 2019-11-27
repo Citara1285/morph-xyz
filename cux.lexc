@@ -1,8 +1,9 @@
 Multichar_Symbols
 
 %<n%>                ! Nombre
-%<pos%>              ! Posesivo
-
+%<poss%>              ! Posesivo
+%<px1sg%> ! Persona
+%<px2sg%> ! Persona
 %<px2sg%>
 
 %>
@@ -141,3 +142,16 @@ d'ima%<n%>:d'ima # ; ! "pierna"
 nunday%<n%>:nunday # ; ! "saliva"
 nruù%<n%>:nruu #;!"vena"
 nduù%<n%>:nduù # ; ! "vena"
+
+LEXICON POSS
+%<poss%>:%>ye PERS ;
+
+LEXICON PERS
+%<px1sg%>:%>´ # ;
+%<px2sg%>:%>d  # ;
+%<px3sg%>%<m%>:%>s  # ;
+%<px3sg%>%<f%>:%>ta  # ;
+%<px3a%>:%>t  # ;
+%<px1pl%>%<in%>:%>w  # ;
+%<px1pl%>%<ex%>:%>n  # ;
+%<px2pl%>:%>n  # ;
